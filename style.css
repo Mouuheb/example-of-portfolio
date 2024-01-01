@@ -48,7 +48,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(web/stock-photo-smiling-journalist-microphone-standing-front-digital-video-camera.jfif) no-repeat;
+    background: url(web/bg2.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -81,6 +81,27 @@ section{
 .main-btn{
     color: white;
     background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 15px 37px;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+
+}
+
+.second-btn{
+    /* box-shadow:1px 1px  white; */
+    box-shadow: 0 0 10px #3a6cf4;
+    text-align: center;
+    min-width: 12rem;
+    margin-left: 1rem;
+    border: #3a6cf4; solid 2px;
+    color: white;
+    background-color: none;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;
@@ -166,7 +187,7 @@ section{
     background-color: #fff;
     border: 1px solid white;
     min-height: 14em;
-    width: 23em;
+    width: 20em;
     overflow: hidden;
     border-radius: 10px;
     margin: 20px;
@@ -302,7 +323,9 @@ footer{
 }
 
 .social-icons a i {
-    color: white;
+    color: #ffffff;;
+    /* box-shadow: #f0f0f0 10px; */
     font-size: 1.7em;
     padding-right: 30px;
+    /* box-shadow: 10px 5px 5px white; */
 }
